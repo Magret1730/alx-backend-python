@@ -3,9 +3,16 @@
 from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
-    A function
+    A function that takes in tuple
+
+    Args:
+    lst
+    factor
+
+    Returns:
+    list of integers
     """
 
     zoomed_in: List[int] = [
