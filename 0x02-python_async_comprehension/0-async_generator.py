@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Task 0 solution"""
+from typing import List
 import asyncio
 import random
 
 
-async def async_generator():
+async def async_generator() -> List[float]:
     """
     Caroutine that loops 10 times each time async
     wait 1 sec and then yield a random number
